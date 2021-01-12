@@ -8,10 +8,18 @@ This release is only for **Blender 2.83 and above**.
 
 This release is a work-in-progress. New features may contain bugs.
 
+### Improvements
+
+- `Channel Offset` is now much more reliable thanks to @GTaulats. While it worked in simple and common cases, it could fail in extreme channels or with some sequence setups.
+
 ### Changes
 
 - Renamed `bpy.ops.sequencer.cut` to `bpy.ops.sequencer.split`.
 - Removed code checking for blender 2.81 and 2.82.
+
+### Fixes
+
+- Fixed a crash in Blender 2.91 when using `Channel Offset`.
 
 ## Power Sequencer 1.5
 
